@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.react-calendar {
+    @apply border-none w-full !important;
+}
+
+.react-calendar__navigation__label {
+    font-weight: 600;
+}
+
+.react-calendar__tile--active {
+    background-color: #C3EBFA !important;
+    color: black !important;
+}
+
+abbr {
+    text-decoration: none;
+    font-weight: 400;
+}
