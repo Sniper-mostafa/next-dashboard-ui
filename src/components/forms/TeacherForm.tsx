@@ -73,7 +73,7 @@ const TeacherForm = ({
           error={errors?.password}
         />
       </div>
-      <span className="text-xs text-red-400">Personal Information</span>
+      <span className="text-xs">Personal Information</span>
       <div className="flex flex-wrap gpa-4 justify-between">
         <InputField
           label="First Name"

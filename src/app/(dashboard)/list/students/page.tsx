@@ -75,7 +75,7 @@ const TeacherListPage = () => {
               <Image src="/edit.png" width={16} height={16} alt="view" />
             </button>
           </Link>
-          {role === "admin" && <FormModal table="student" type="delete" />}
+          {role === "admin" && <FormModal table="student" type="delete" id={item.id} />}
         </div>
       </td>
     </tr>
